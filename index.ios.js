@@ -12,13 +12,14 @@ import {
   View
 } from 'react-native';
 
+var InventoryGrid = require("./InventoryGrid.js")
 class closet extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.welcome}>
+        <InventoryGrid style={styles.welcome}>
           Welcome to React Native!
-        </Text>
+        </InventoryGrid>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
         </Text>
