@@ -13,13 +13,22 @@ import {
 } from 'react-native';
 
 
-var MainNavigator = require("./MainNavigator.js")
-
-class mcapp extends Component {
-
+var InventoryGrid = require("./InventoryGrid.js")
+class closet extends Component {
   render() {
     return (
-      <MainNavigator/>
+      <View style={styles.container}>
+        <InventoryGrid style={styles.welcome}>
+          Welcome to React Native!
+        </InventoryGrid>
+        <Text style={styles.instructions}>
+          To get started, edit index.ios.js
+        </Text>
+        <Text style={styles.instructions}>
+          Press Cmd+R to reload,{'\n'}
+          Cmd+D or shake for dev menu
+        </Text>
+      </View>
     );
   }
 }

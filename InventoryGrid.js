@@ -48,7 +48,7 @@ var THUMB_URLS = [
   require('./Thumbnails/victory.png'),
 ];
 
-var ListViewGridLayoutExample = React.createClass({
+var InventoryGrid = React.createClass({
 
   statics: {
     title: '<ListView> - Grid Layout',
@@ -158,4 +158,4 @@ var styles = StyleSheet.create({
   },
 });
 
-module.exports = ListViewGridLayoutExample;
+module.exports = InventoryGrid;
