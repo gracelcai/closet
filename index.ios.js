@@ -52,4 +52,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('mcapp', () => mcapp);
+AppRegistry.registerComponent('closet', () => closet);
